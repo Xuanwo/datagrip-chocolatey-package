@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>datagrip</id>
+    <title>DataGrip</title>
+    <version>1.0.2</version>
+    <authors>JetBrains</authors>
+    <owners>Xuanwo</owners>
+    <summary>Your Swiss Army Knife for Databases and SQL</summary>
+    <description>## Intelligent query console
+Allows you to execute queries in different modes and provides local history that keeps track of all your activity and protects you from losing your work.
+
+## Efficient schema navigation
+Lets you jump to any table, view, or procedure by its name via corresponding action, or directly from its usages in the SQL code.
+
+## Explain plan
+Gives you an extended insight into how your queries work and into database engine behavior so you can make your queries more efficient.
+
+## Smart code completion
+DataGrip provides context-sensitive code completion, helping you to write SQL code faster. Completion is aware of the tables structure, foreign keys, and even database objects created in code you're editing.
+
+## On-the-fly analysis and quick-fixes
+DataGrip detects probable bugs in your code and suggests the best options to fix them on the fly. It will immediately let you know about unresolved objects, using keywords as identifiers and always offers the way to fix problems.
+
+## Refactorings that work in SQL files and schemas
+DataGrip correctly resolves all references in your SQL code and helps you refactor them. When you rename a variable or an alias, it will update their usages throughout the entire file. Even the actual table names in the database are updated when you rename references to them from your queries.
+
+## Version control integration
+We provide unified support for all major version control systems: Git, SVN, Mercurial and many others.</description>
+    <projectUrl>https://www.jetbrains.com/datagrip/</projectUrl>
+    <packageSourceUrl>https://github.com/Xuanwo/datagrip-chocolatey-package</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://youtrack.jetbrains.com/issues/DBE</bugTrackerUrl>
+    <tags>datagrip admin jetbrains trial 30days</tags>
+    <copyright>Commercial</copyright>
+    <!--<licenseUrl></licenseUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/datagrip.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes>https://confluence.jetbrains.com/display/DBE/DataGrip+1.0.2+Release+Notes</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
