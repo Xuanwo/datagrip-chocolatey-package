@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>datagrip</id>
     <title>DataGrip</title>
-    <version>1.0.2</version>
+    <version>2016.2.3</version>
     <authors>JetBrains</authors>
     <owners>Xuanwo</owners>
     <summary>Your Swiss Army Knife for Databases and SQL</summary>
@@ -44,7 +44,7 @@ We provide unified support for all major version control systems: Git, SVN, Merc
       <dependency id="" version="__VERSION__" />
       <dependency id="" />
     </dependencies>-->
-    <releaseNotes>https://confluence.jetbrains.com/display/DBE/DataGrip+1.0.2+Release+Notes</releaseNotes>
+    <releaseNotes>https://confluence.jetbrains.com/display/DBE/Public+DataGrip+Page</releaseNotes>
     <!--<provides></provides>-->
   </metadata>
   <files>
