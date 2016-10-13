@@ -1,7 +1,7 @@
 ﻿$packageName= 'datagrip'
 $installerType = 'EXE'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://download.jetbrains.com/datagrip/datagrip-2016.2.3.exe'
+$url        = 'https://download.jetbrains.com/datagrip/datagrip-2016.2.5.exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 
