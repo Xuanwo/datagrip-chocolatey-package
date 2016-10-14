@@ -6,7 +6,7 @@ build_script:
 deploy_script:
   - ps: >-
       Write-Host $env:APPVEYOR_REPO_TAG ;
-      if($env:APPVEYOR_REPO_BRANCH -eq 'master' -And $env:APPVEYOR_REPO_TAG -eq 'true') {
+      if($env:APPVEYOR_REPO_TAG -eq 'true') {
         $version = $env:APPVEYOR_BUILD_VERSION -replace('\.[^.\\/]+$') ;
         choco apiKey -k $env:Apikey -source https://chocolatey.org/ ;
         choco push datagrip.$version.nupkg
