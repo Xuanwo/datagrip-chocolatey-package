@@ -1,0 +1,16 @@
+version: 2016.2.5
+
+build_script:
+  - ps: cpack
+
+deploy_script:
+  - ps: >-
+      if($env:APPVEYOR_REPO_BRANCH -eq 'master') {
+        $version = $env:APPVEYOR_BUILD_VERSION;
+        choco apiKey -k $env:Apikey -source https://chocolatey.org/ ;
+        choco push datagrip.$version.nupkg
+      }
+
+artifacts:
+  - path: '**\*.nupkg'
+    name: Package
