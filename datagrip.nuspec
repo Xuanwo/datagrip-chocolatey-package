@@ -39,7 +39,7 @@ We provide unified support for all major version control systems: Git, SVN, Merc
     <copyright>Commercial</copyright>
     <!--<licenseUrl></licenseUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/datagrip.png</iconUrl>-->
+    <iconUrl>https://resources.jetbrains.com/assets/marketo/newsletter/january2016/newsletter_promo.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="__VERSION__" />
       <dependency id="" />
