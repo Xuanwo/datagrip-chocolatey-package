@@ -5,7 +5,7 @@ $version    = '2016.2.6'
 $url        = "https://download.jetbrains.com/datagrip/datagrip-$version.exe"
 $silentArgs = '/S'
 $validExitCodes = @(0)
-$checksum   = 'c65ef81e7c178d6e0f6fc4c7d55687a474e7c4bd0e2a94bd3de541ee66daff4a'
+$checksum   = '7dcd1d9e70e6786aee40ffe3258fafb47d64d225249b973bb59565427459d826'
 $checksumType = 'sha256'
 $fileFullPath = "$toolsDir\datagrip-$version.exe"
 
