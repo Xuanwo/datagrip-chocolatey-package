@@ -1,11 +1,11 @@
 ﻿$packageName= 'datagrip'
 $installerType = 'EXE'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$version    = '2016.2.5'
+$version    = '2016.2.6'
 $url        = "https://download.jetbrains.com/datagrip/datagrip-$version.exe"
 $silentArgs = '/S'
 $validExitCodes = @(0)
-$checksum   = '6f8fa8477010d3d49e61b10844876db2df1ec0f852fdaf7cbd9aec167e37214d'
+$checksum   = 'c65ef81e7c178d6e0f6fc4c7d55687a474e7c4bd0e2a94bd3de541ee66daff4a'
 $checksumType = 'sha256'
 $fileFullPath = "$toolsDir\datagrip-$version.exe"
 

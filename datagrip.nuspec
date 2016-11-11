@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>datagrip</id>
     <title>DataGrip</title>
-    <version>2016.2.5</version>
+    <version>2016.2.6</version>
     <authors>JetBrains</authors>
     <owners>Xuanwo</owners>
     <summary>Your Swiss Army Knife for Databases and SQL</summary>
