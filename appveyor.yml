@@ -1,4 +1,4 @@
-version: 2016.3.4.{build}
+version: 2017.1.{build}
 
 build_script:
   - ps: choco pack
