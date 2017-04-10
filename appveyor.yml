@@ -2,6 +2,7 @@ version: 2017.1.1.{build}
 
 build_script:
   - ps: choco pack
+  - ps: choco install datagrip.nuspec
 
 deploy_script:
   - ps: >-
